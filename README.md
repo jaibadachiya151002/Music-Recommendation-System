@@ -90,15 +90,3 @@ You’ve built a powerful **content-based music recommendation engine** that:
 - Doesn't rely on user history or interactions.
 - Finds sonically similar tracks based on actual audio properties.
 
----
-
-## 🧩 Future Extensions (Optional Ideas)
-
-- Add **collaborative filtering** for hybrid recommender.
-- Build a **streamlit app** for user input + real-time recommendations.
-- Add **filters** (e.g., only recommend popular songs, only non-explicit, etc.).
-- Use **deep learning** (e.g., autoencoders) for better embeddings.
-
----
-
-Would you like a project summary write-up or portfolio-ready explanation next?
