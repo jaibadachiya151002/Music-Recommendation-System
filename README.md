@@ -90,3 +90,67 @@ You’ve built a powerful **content-based music recommendation engine** that:
 - Doesn't rely on user history or interactions.
 - Finds sonically similar tracks based on actual audio properties.
 
+# UPDATED VERSION
+
+# 🎵 Mood-Based and Content-Aware Music Recommendation System
+
+This project is a comprehensive **Music Recommendation System** that leverages both unsupervised learning and external Spotify API integration to provide tailored music suggestions. It supports two key recommendation approaches:
+1. **Content-Based Filtering** using audio features
+2. **Mood-Based Recommendation** for different emotional contexts
+
+---
+
+## 📊 Features & Technologies
+
+- Clustering using **K-Means** on audio features
+- Dimensionality reduction with **PCA** and **t-SNE**
+- Interactive visualization using **Plotly**
+- **Spotify API** for fetching song metadata and audio features
+- **Custom mood profiles** for emotional or situational music discovery
+- Cosine and Euclidean distance-based recommendation system
+
+---
+
+## 🛠 How It Works
+
+1. **Data Processing**
+   - Loads datasets (`data.csv`, `data_by_genres.csv`, `data_by_year.csv`)
+   - Standardizes and clusters songs using K-Means
+
+2. **Visualization**
+   - Plots 2D embeddings using **t-SNE** and **PCA** for genre and song clusters
+
+3. **Recommendation Engine**
+   - Finds songs similar to a given list by calculating audio feature distances
+   - Offers mood-specific suggestions using predefined emotional vectors
+
+4. **Spotify Integration**
+   - Searches for new songs using Spotify's Web API
+   - Fetches detailed features to recommend even if songs are not in the dataset
+
+---
+
+## 🤖 Use Cases
+
+- Discover music similar to your favorite tracks
+- Get playlist suggestions for moods like *party*, *chill*, *romantic*, *focus*, etc.
+- Analyze audio trends across genres and years
+
+---
+
+## 🚀 Future Improvements
+
+- Deploy as a web app using Streamlit or Flask
+- Add collaborative filtering with user listening history
+- Store user interactions and preferences
+
+---
+
+## 📎 Dataset Sources
+
+- Kaggle (Spotify audio features dataset)
+- Spotify Web API
+
+---
+
+
